@@ -9,20 +9,21 @@ import GameDetails from './components/GameDetails'; // Import your GameDetails c
 import ItemDetail from './components/ItemDetail'; // Update the path to match your project structure
 import Header from './components/Header';
 
-
 function App() {
   return (
-    <Provider store={store}> {/* Wrap your entire app with Provider */}
+    <Provider store={store}>
+      {' '}
+      {/* Wrap your entire app with Provider */}
       <Router>
         <div>
           <Header />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/category/:gameID" component={GameDetails} />
-              <Route path="/category/:categoryID" component={CategoryDetails} />
-              <Route path="/item/:categoryID" component={ItemDetail} />
-            </Switch>
-          </div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/category/:gameID" component={GameDetails} />
+            <Route path="/category/:categoryID" component={CategoryDetails} />
+            <Route path="/item/:categoryID" component={ItemDetail} />
+          </Switch>
+        </div>
       </Router>
     </Provider>
   );

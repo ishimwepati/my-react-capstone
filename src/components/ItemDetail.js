@@ -23,7 +23,10 @@ const ItemDetail = () => {
       {categoryDetails ? (
         <div>
           <h3>{categoryDetails.external}</h3>
-          <p>Cheapest Price: {categoryDetails.cheapest}</p>
+          <p>
+            Cheapest Price:
+            {categoryDetails.cheapest}
+          </p>
           {/* Display other item details */}
         </div>
       ) : (

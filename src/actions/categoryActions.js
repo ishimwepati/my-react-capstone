@@ -2,7 +2,6 @@
 
 import axios from 'axios';
 
-
 // Define your action types
 export const FETCH_CATEGORIES_SUCCESS = 'FETCH_CATEGORIES_SUCCESS';
 export const FETCH_CATEGORY_DETAILS_SUCCESS = 'FETCH_CATEGORY_DETAILS_SUCCESS';

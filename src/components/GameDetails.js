@@ -25,15 +25,28 @@ function GameDetails() {
       {gameDetails ? (
         <div>
           <h2>{gameDetails.info.title}</h2>
-          <p>Steam App ID: {gameDetails.info.steamAppID}</p>
+          <p>
+            Steam App ID:
+            {gameDetails.info.steamAppID}
+          </p>
           <img src={gameDetails.info.thumb} alt={gameDetails.info.title} />
           <h3>Deals:</h3>
           <ul>
             {gameDetails.deals.map((deal) => (
               <li key={deal.dealID}>
-                <p>Price: {deal.price}</p>
-                <p>Retail Price: {deal.retailPrice}</p>
-                <p>Savings: {deal.savings}%</p>
+                <p>
+                  Price:
+                  {deal.price}
+                </p>
+                <p>
+                  Retail Price:
+                  {deal.retailPrice}
+                </p>
+                <p>
+                  Savings:
+                  {deal.savings}
+                  %
+                </p>
               </li>
             ))}
           </ul>

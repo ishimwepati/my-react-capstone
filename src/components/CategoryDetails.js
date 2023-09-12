@@ -4,7 +4,6 @@ import { useParams, useHistory } from 'react-router-dom';
 import { fetchCategoryDetails } from '../actions/categoryActions';
 import GameDetails from './GameDetails'; // Import the GameDetails component.
 
-
 const CategoryDetails = () => {
   const { categoryID } = useParams();
   const history = useHistory();
@@ -27,7 +26,10 @@ const CategoryDetails = () => {
           {categoryDetails.map((game) => (
             <div key={game.gameID}>
               <h3>{game.external}</h3>
-              <p>Cheapest Price: {game.cheapest}</p>
+              <p>
+                Cheapest Price:
+                {game.cheapest}
+              </p>
               {/* Display other details */}
               {game.thumb ? (
                 <img src={game.thumb} alt={game.external} />
@@ -39,9 +41,11 @@ const CategoryDetails = () => {
         </div>
       ) : (
         <div>
-      {/* Your item-specific content */}
-      <GameDetails /> {/* Include the GameDetails component here */}
-    </div>
+          {/* Your item-specific content */}
+          <GameDetails />
+          {' '}
+          {/* Include the GameDetails component here */}
+        </div>
 
       )}
       <button onClick={handleBackClick}>Back</button>
