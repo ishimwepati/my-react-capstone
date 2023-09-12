@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchCategories } from '../actions/categoryActions';
@@ -8,21 +8,41 @@ const Home = () => {
   // Access the categories property from the categoryReducer slice of the state
   const categories = useSelector((state) => state.categoryReducer.categories);
 
+  // State to store the search query
+  const [searchQuery, setSearchQuery] = useState('');
+
   useEffect(() => {
     dispatch(fetchCategories());
   }, [dispatch]);
 
+  // Function to handle changes in the search input
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  // Function to filter games based on the search query
+  const filteredCategories = categories.filter((category) => {
+    return category.external.toLowerCase().includes(searchQuery.toLowerCase());
+  });
+
   return (
     <div>
       <h1>Categories</h1>
+      {/* Search input */}
+      <input
+        type="text"
+        placeholder="Search games..."
+        value={searchQuery}
+        onChange={handleSearchInputChange}
+      />
       <ul>
-        {categories.map((category) => (
+        {filteredCategories.map((category) => (
           <li key={category.gameID}>
             <Link to={`/category/${category.gameID}`}>
               <img
-                src={category.thumb} // Use the 'thumb' property for the image URL
+                src={category.thumb}
                 alt={category.external}
-                style={{ width: '200px', height: '100px' }} // Set the image size as needed
+                style={{ width: '100px', height: '100px' }}
               />
               {category.external}
             </Link>
