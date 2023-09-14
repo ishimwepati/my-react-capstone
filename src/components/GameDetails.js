@@ -34,13 +34,13 @@ function GameDetails() {
           <ul>
             {gameDetails.deals.map((deal) => (
               <li key={deal.dealID}>
-                <p>
+                <p data-testid="price">
                   Price:
-                  {deal.price}
+                  {gameDetails.info.price}
                 </p>
-                <p>
+                <p data-testid="retail-price">
                   Retail Price:
-                  {deal.retailPrice}
+                  {gameDetails.info.retailPrice}
                 </p>
                 <p>
                   Savings:
