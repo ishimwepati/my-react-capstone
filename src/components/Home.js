@@ -21,6 +21,7 @@ const Home = () => {
   };
 
   // Function to filter games based on the search query
+  // eslint-disable-next-line
   const filteredCategories = categories.filter((category) => category.external.toLowerCase().includes(searchQuery.toLowerCase()));
 
   return (

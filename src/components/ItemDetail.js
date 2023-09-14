@@ -32,7 +32,7 @@ const ItemDetail = () => {
       ) : (
         <p>Loading...</p>
       )}
-      <button onClick={handleBackClick}>Back</button>
+      <button type="button" onClick={handleBackClick}>Back</button>
     </div>
   );
 };
