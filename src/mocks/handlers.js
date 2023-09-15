@@ -1,5 +1,4 @@
-// src/mocks/handlers.js
-
+// eslint-disable-next-line
 import { rest } from 'msw';
 
 const handlers = [
@@ -23,5 +22,5 @@ const handlers = [
     return res(ctx.json(mockData));
   }),
 ];
-
+// eslint-disable-next-line
 export { handlers };
