@@ -38,17 +38,15 @@
     border-top: 1px solid #ccc;
     padding-top: 10px;
   }
-  
-  /* Style price and retail-price paragraphs */
+
   .game-details-price,
   .game-details-retail-price {
     font-weight: bold;
     color: #007bff;
   }
   
-  /* Style the savings percentage */
   .game-details-savings {
     font-weight: bold;
-    color: #28a745;
+    color: #040404;
   }
   

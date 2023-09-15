@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import './GameDetails.css'; // Import the CSS file
+import './GameDetails.css';
 
 function GameDetails() {
   const { gameID } = useParams();
