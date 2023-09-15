@@ -75,20 +75,16 @@ Browse through various game categories and discover your favorites. Use the sear
 
 ## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
 
-- [Kindly Click Here to open the demo ](https://lively-sconpe-268aa3.netlify.ap/)
+- [Kindly Click Here to open the demo ](https://wazacode-gaming.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Demo Video <a name="live-demo" target="_blank"></a>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- will be available soon!
+- [Kindly Click Here to watch the explnation video]( My Video Links /)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -110,8 +106,7 @@ Clone this repository to your desired folder using:
 
 ```sh
   cd my-folder
-  git clone https://github.com/ishimwepati/Javascript-Capstone.git
-```
+  git clone https://github.com/ishimwepati/my-react-capstone.git
 <!-- INSTALL -->
 
 ### Install
@@ -148,12 +143,6 @@ You can deploy this project using:
 - Twitter: [@PatientMusafir1](https://twitter.com/PatientMusafir1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
 
-
-👤 **Ghayoor Ul Baqir**
-
-- GitHub: [@githubhandle](https://github.com/Xghayor)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghayoor-ul-baqir)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTION -->
@@ -175,6 +164,8 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Special acknowledgement to [@microverseinc](https://github.com/microverseinc)
+
+> Also Special acknowledgement to [@sakwadesignstudio Nelson Sekwa](https://www.behance.net/sakwadesignstudio), the Design is WOW.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
