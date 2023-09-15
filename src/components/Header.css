@@ -1,8 +1,8 @@
 /* Header.css */
 .header {
-  background-color: #cc3a79b7;
+  background-color: #675f62b7;
   color: #fff;
-  padding: 5px 0;
+  padding: 5px 20px;
   box-shadow: 0 4px 6px #cc3a79b7;
   display: flex;
   justify-content: space-between;

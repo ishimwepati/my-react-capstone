@@ -1,6 +1,6 @@
 /* GameDetails.css */
 .game-details-container {
-    background-color: #cc3a79b7;
+   background-color: #675f62b7;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -42,7 +42,7 @@
   .game-details-price,
   .game-details-retail-price {
     font-weight: bold;
-    color: #007bff;
+    color: #fafbfc;
   }
   
   .game-details-savings {
