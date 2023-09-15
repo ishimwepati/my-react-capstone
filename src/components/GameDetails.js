@@ -17,9 +17,8 @@ function GameDetails() {
   };
 
   useEffect(() => {
-    // Include fetchGameDetails in the dependency array
     fetchGameDetails();
-  }, [gameID, fetchGameDetails]);
+  }, [gameID]);
 
   return (
     <div className="game-details-container">
@@ -40,11 +39,15 @@ function GameDetails() {
           <ul className="game-details-deals-list">
             {gameDetails.deals.map((deal) => (
               <li key={deal.dealID} className="game-details-deal-item">
-                <p className="game-details-price">
+                <p className="game-details-price" data-testid="price">
+                  {' '}
+                  {/* Add data-testid */}
                   Price:
                   {deal.price}
                 </p>
-                <p className="game-details-retail-price">
+                <p className="game-details-retail-price" data-testid="retail-price">
+                  {' '}
+                  {/* Add data-testid */}
                   Retail Price:
                   {deal.retailPrice}
                 </p>

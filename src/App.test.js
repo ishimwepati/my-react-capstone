@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders Categories header', () => {
+test('renders header element with "Your Logo"', () => {
   render(<App />);
-  const headerElement = screen.getByText(/Categories/i);
+  const headerElement = screen.getByAltText('Your Logo');
   expect(headerElement).toBeInTheDocument();
 });
