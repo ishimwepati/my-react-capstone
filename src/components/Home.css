@@ -1,0 +1,72 @@
+/* Home.css */
+
+@media (max-width: 768px) {
+
+.body-class{
+    padding-top: 10px;
+    background-color: #cc3a79b7;
+}
+.body-class h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  
+  .filter {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    text-align: center; 
+  }
+  
+  .filter::placeholder {
+    color: #999;
+    font-size: 20px;
+  }
+  
+  .filter:focus {
+    border-color: #00060b;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .grid-item {
+    background-color: #f0f0f0; 
+    border: 0.5px solid #cc3a79b7;; 
+    padding: 8px; 
+    text-align: center; 
+    background-color: #cc3a79b7;
+  }
+  
+  .grid-item img {
+    max-width: 200px; 
+    height: 150px; 
+    border-radius: 5px;
+  }
+  
+
+  .grid-item h3 {
+    margin: 5px 0;
+    color: rgb(6, 6, 6);
+    font-size: medium;
+  }
+  .grid-item a{
+    text-decoration: none;
+  }
+  
+}
+  
+  
