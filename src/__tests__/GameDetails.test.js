@@ -5,14 +5,11 @@ import {
 import { MemoryRouter, Route } from 'react-router-dom';
 import GameDetails from '../components/GameDetails';
 
-// Mock Axios for the test
 jest.mock('axios');
 
 test('renders game details component with loading message', async () => {
-  // Mock Axios response for the loading state
   axios.get.mockResolvedValueOnce({ data: null });
 
-  // Render the component within a MemoryRouter and with a gameID param
   render(
     <MemoryRouter initialEntries={['/game/123']}>
       <Route path="/game/:gameID">
@@ -21,7 +18,6 @@ test('renders game details component with loading message', async () => {
     </MemoryRouter>,
   );
 
-  // Check if loading message is displayed within an act block
   act(() => {
     const loadingMessage = screen.getByText(/Loading game details.../i);
     expect(loadingMessage).toBeInTheDocument();
@@ -29,7 +25,6 @@ test('renders game details component with loading message', async () => {
 });
 
 test('renders game details component with loaded data', async () => {
-  // Mock Axios response for the loaded state
   const mockData = {
     info: {
       title: 'Sample Game',
@@ -48,7 +43,6 @@ test('renders game details component with loaded data', async () => {
 
   axios.get.mockResolvedValueOnce({ data: mockData });
 
-  // Render the component within a MemoryRouter and with a gameID param
   render(
     <MemoryRouter initialEntries={['/game/123']}>
       <Route path="/game/:gameID">
@@ -57,13 +51,12 @@ test('renders game details component with loaded data', async () => {
     </MemoryRouter>,
   );
 
-  // Wait for the component to finish rendering with the data
   await waitFor(() => {
     const title = screen.getByText(/Sample Game/i);
     const steamAppID = screen.getByText(/Steam App ID:/);
     const thumb = screen.getByAltText(/Sample Game/i);
-    const price = screen.getByTestId('price'); // Use data-testid
-    const retailPrice = screen.getByTestId('retail-price'); // Use data-testid
+    const price = screen.getByTestId('price');
+    const retailPrice = screen.getByTestId('retail-price');
     const savings = screen.getByText(/Savings:/i);
 
     expect(title).toBeInTheDocument();

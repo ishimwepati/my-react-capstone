@@ -2,10 +2,8 @@
 
 import { rest } from 'msw';
 
-// Define your mock API responses here
 const handlers = [
   rest.get('https://www.cheapshark.com/api/1.0/games', (req, res, ctx) => {
-    // Mock response data
     const mockData = {
       info: {
         title: 'Sample Game',

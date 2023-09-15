@@ -41,13 +41,11 @@ function GameDetails() {
               <li key={deal.dealID} className="game-details-deal-item">
                 <p className="game-details-price" data-testid="price">
                   {' '}
-                  {/* Add data-testid */}
                   Price:
                   {deal.price}
                 </p>
                 <p className="game-details-retail-price" data-testid="retail-price">
                   {' '}
-                  {/* Add data-testid */}
                   Retail Price:
                   {deal.retailPrice}
                 </p>
