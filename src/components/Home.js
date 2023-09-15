@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchCategories } from '../actions/categoryActions';
-import './Home.css'; // Import the CSS file
+import './Home.css';
 
 const Home = () => {
   const dispatch = useDispatch();
