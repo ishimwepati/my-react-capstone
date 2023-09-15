@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams, useHistory } from 'react-router-dom';
 import { fetchCategoryDetails } from '../actions/categoryActions';
-import GameDetails from './GameDetails'; // Import the GameDetails component.
+import GameDetails from './GameDetails';
 
 const CategoryDetails = () => {
   const { categoryID } = useParams();
@@ -17,7 +17,6 @@ const CategoryDetails = () => {
   const handleBackClick = () => {
     history.push('/');
   };
-
   return (
     <div>
       <h2>Category Details</h2>
@@ -30,7 +29,6 @@ const CategoryDetails = () => {
                 Cheapest Price:
                 {game.cheapest}
               </p>
-              {/* Display other details */}
               {game.thumb ? (
                 <img src={game.thumb} alt={game.external} />
               ) : (
@@ -41,12 +39,9 @@ const CategoryDetails = () => {
         </div>
       ) : (
         <div>
-          {/* Your item-specific content */}
           <GameDetails />
           {' '}
-          {/* Include the GameDetails component here */}
         </div>
-
       )}
       <button type="button" onClick={handleBackClick}>Back</button>
     </div>

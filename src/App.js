@@ -1,19 +1,18 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Provider } from 'react-redux'; // Import Provider
-import store from './store'; // Import your Redux store
+import { Provider } from 'react-redux';
+import store from './store';
 import Home from './components/Home';
 import CategoryDetails from './components/CategoryDetails';
-import GameDetails from './components/GameDetails'; // Import your GameDetails component
-import ItemDetail from './components/ItemDetail'; // Update the path to match your project structure
+import GameDetails from './components/GameDetails';
+import ItemDetail from './components/ItemDetail';
 import Header from './components/Header';
 
 function App() {
   return (
     <Provider store={store}>
       {' '}
-      {/* Wrap your entire app with Provider */}
       <Router>
         <div>
           <Header />

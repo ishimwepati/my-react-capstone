@@ -10,7 +10,7 @@ const ItemDetail = () => {
   const categoryDetails = useSelector((state) => state.categoryReducer.categoryDetails);
 
   useEffect(() => {
-    dispatch(fetchCategoryDetails(categoryID)); // Assuming your action fetches item details
+    dispatch(fetchCategoryDetails(categoryID));
   }, [dispatch, categoryID]);
 
   const handleBackClick = () => {
@@ -27,7 +27,6 @@ const ItemDetail = () => {
             Cheapest Price:
             {categoryDetails.cheapest}
           </p>
-          {/* Display other item details */}
         </div>
       ) : (
         <p>Loading...</p>
