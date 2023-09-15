@@ -1,0 +1,76 @@
+/* Home.css */
+
+/* @media (max-width: 768px) { */
+
+.body-class {
+  padding-top: 10px;
+  background-color: #675f62b7;
+}
+
+.body-class h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  text-align: center;
+}
+
+.filter::placeholder {
+  color: #999;
+  font-size: 20px;
+}
+
+.filter:focus {
+  border-color: #00060b;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  border: 0.5px solid #cc3a79b7;
+  padding: 8px;
+  text-align: center;
+  background-color: #393738b7;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.grid-item h3 {
+  margin: 5px 0;
+  color: rgb(6, 6, 6);
+  font-size: 15px;
+  background-color: #d0dbe5;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+.grid-item a {
+  text-decoration: none;
+}
+
+/* } */

@@ -1,0 +1,45 @@
+/* Header.css */
+.header {
+  background-color: #675f62b7;
+  color: #fff;
+  padding: 5px 20px;
+  box-shadow: 0 4px 6px #cc3a79b7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.center,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.center img {
+  width: 80px;
+  height: 80px;
+}
+
+.right i {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.right i:hover {
+  color: #f60;
+}
+
+.fa-arrow-left {
+  color: white;
+  font-size: 30px;
+}
