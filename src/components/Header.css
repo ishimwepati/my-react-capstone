@@ -9,7 +9,9 @@
   align-items: center;
 }
 
-.left, .center, .right {
+.left,
+.center,
+.right {
   display: flex;
   align-items: center;
 }
@@ -34,10 +36,10 @@
 }
 
 .right i:hover {
-  color: #ff6600;
+  color: #f60;
 }
 
-.fa-arrow-left{ 
+.fa-arrow-left {
   color: white;
   font-size: 30px;
 }

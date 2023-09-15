@@ -1,52 +1,51 @@
 /* GameDetails.css */
 .game-details-container {
-   background-color: #675f62b7;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  
-  .game-details-title {
-    font-size: 24px;
-    margin-bottom: 5px;
-  }
-  
-  .game-details-steam-app-id {
-    font-size: 16px;
-  }
-  
-  .game-details-image {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .game-details-deals-title {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  
-  .game-details-deals-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .game-details-deal-item {
-    margin-top: 10px;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-  }
+  background-color: #675f62b7;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
 
-  .game-details-price,
-  .game-details-retail-price {
-    font-weight: bold;
-    color: #fafbfc;
-  }
-  
-  .game-details-savings {
-    font-weight: bold;
-    color: #040404;
-  }
-  
+.game-details-title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.game-details-steam-app-id {
+  font-size: 16px;
+}
+
+.game-details-image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.game-details-deals-title {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.game-details-deals-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.game-details-deal-item {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.game-details-price,
+.game-details-retail-price {
+  font-weight: bold;
+  color: #fafbfc;
+}
+
+.game-details-savings {
+  font-weight: bold;
+  color: #040404;
+}
