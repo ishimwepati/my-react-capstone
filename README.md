@@ -108,7 +108,7 @@ Clone this repository to your desired folder using:
 ```sh
   cd my-folder
   git clone https://github.com/ishimwepati/my-react-capstone.git
-  
+
 ```
 
 <!-- INSTALL -->
@@ -139,13 +139,13 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Ishimwe Joseph**
 
 - GitHub: [@ishimwepati](https://github.com/ishimwepati)
 - Twitter: [@PatientMusafir1](https://twitter.com/PatientMusafir1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
+- LinkedIn: [@Ishimwe Joseph ](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,7 +182,7 @@ Contributions, issues, and feature requests are welcome!
 
 - **What new features should be expected in the next release of the project?**
 
-  - In a short period **Live Demos**. will be added
+  - In a short period **Gamers interractions (Likes and Comments)**. will be added
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
