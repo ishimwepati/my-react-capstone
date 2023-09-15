@@ -45,6 +45,7 @@ Browse through various game categories and discover your favorites. Use the sear
 4. Linters
 5. Game API
 6. Beautifull Design
+7. Testing 
 
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -107,6 +108,9 @@ Clone this repository to your desired folder using:
 ```sh
   cd my-folder
   git clone https://github.com/ishimwepati/my-react-capstone.git
+  
+```
+
 <!-- INSTALL -->
 
 ### Install
