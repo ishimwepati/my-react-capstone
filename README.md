@@ -83,7 +83,7 @@ Browse through various game categories and discover your favorites. Use the sear
 
 ## 🚀 Demo Video <a name="live-demo" target="_blank"></a>
 
-- [Kindly Click Here to watch the explnation video]( My Video Links /)
+- [Kindly Click Here to watch the explnation video](https://www.loom.com/share/87e3a3de3db44b83ab1a1de521d89c30?sid=ea38b2e3-c68e-436f-9d6d-c8497633b84b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
