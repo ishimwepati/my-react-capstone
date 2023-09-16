@@ -1,65 +1,195 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+
+<div align="center">
+
+<!-- MAIN HEADING -->
+
+  <h3><b>Gaming List App</b></h3>
+  <h2><b>React-Redux  Capstone Project</b></h2>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [🚀 Explanation Video](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 
-## Available Scripts
+> Welcome to the Gaming List App, your gateway to the exciting world of gaming! With a sleek and intuitive design, you can easily explore a vast selection of thrilling games right at your fingertips.
 
-### `npm start`
+Browse through various game categories and discover your favorites. Use the search feature to find specific games quickly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With <a name="built-with"></a>
+1. React 
+2. Redux
+3. CSS
+4. Linters
+5. Game API
+6. Beautifull Design
+7. Testing 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> This is a version with mono view mobile and responsiveness on Desktop.
 
-### `npm run build`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev">React</a></li>
+    <li><a href="https://redux.js.org">Redux</a></li>
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters</a></li>
+  </ul>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Features -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Key Features <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> - Added Linters
+> - Added React
+> - Added Redux
+> - Games DB API
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- LIVE DEMO -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Kindly Click Here to open the demo ](https://wazacode-gaming.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Demo Video <a name="live-demo" target="_blank"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Kindly Click Here to watch the explnation video](https://www.loom.com/share/87e3a3de3db44b83ab1a1de521d89c30?sid=ea38b2e3-c68e-436f-9d6d-c8497633b84b/)
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Making a Progressive Web App
+> Follow the step bellow to get the project localy.
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. A Browser (Preferably Google Chrome)
+2. A Code Editor
+3. Internet Connection
+4. Git
 
-### Advanced Configuration
+<!-- SETUP -->
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Clone this repository to your desired folder using:
+
+```sh
+  cd my-folder
+  git clone https://github.com/ishimwepati/my-react-capstone.git
+
+```
+
+<!-- INSTALL -->
+
+### Install
+
+Make sure you install this project with the latest version of Git and a code editor (VS is good).
+
+Now in your terminal do this :
+
+> - First : "npm install" : to install all npm dependencies
+> - Then type "npm run build"
+
+### Usage
+
+To run the project, execute the following command:
+
+Browser up your project folder location, once there type the command below using your terminal ### code . all the project files will open and VS.
+
+> -  "npm start"
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
+>1.  A Code Editor
+>2. Latest version of Git
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+## 👥 Author <a name="authors"></a>
+
+👤 **Ishimwe Joseph**
+
+- GitHub: [@ishimwepati](https://github.com/ishimwepati)
+- Twitter: [@PatientMusafir1](https://twitter.com/PatientMusafir1)
+- LinkedIn: [@Ishimwe Joseph ](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTION -->
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project, please give it some starts ⭐️⭐️⭐️⭐️⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Special acknowledgement to [@microverseinc](https://github.com/microverseinc)
+
+> Also Special acknowledgement to [@sakwadesignstudio Nelson Sekwa](https://www.behance.net/sakwadesignstudio), the Design is WOW.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQS -->
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **How were the Linters utilised?**
+
+  - The Linters were used with the help of resources provided by [@microverseinc](https://github.com/microverseinc).
+
+- **What new features should be expected in the next release of the project?**
+
+  - In a short period **Gamers interractions (Likes and Comments)**. will be added
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
