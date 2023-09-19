@@ -27,7 +27,7 @@ const Home = () => {
       <div className="filter-container">
         <input
           type="text"
-          placeholder="Search for a game.."
+          placeholder=""
           value={searchQuery}
           onChange={handleSearchInputChange}
           className="filter"
